@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fir-otp-auth-app",
+          "appId": "1:180850621786:android:460d9fe6e24c427bc14763",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "fir-otp-auth-app",
+          "appId": "1:180850621786:ios:8269ee7039372231c14763",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "fir-otp-auth-app",
+          "appId": "1:180850621786:ios:8269ee7039372231c14763",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fir-otp-auth-app",
+          "configurations": {
+            "android": "1:180850621786:android:460d9fe6e24c427bc14763",
+            "ios": "1:180850621786:ios:8269ee7039372231c14763",
+            "macos": "1:180850621786:ios:8269ee7039372231c14763",
+            "windows": "1:180850621786:web:b0f838716b86a402c14763"
+          }
+        }
+      }
+    }
+  }
+}
