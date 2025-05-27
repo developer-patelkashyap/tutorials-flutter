@@ -1,0 +1,28 @@
+### Register a new user
+POST http://localhost:3000/api/auth/signup
+Content-Type: application/json
+
+{
+  "phone": "9876543215",
+  "name": "Alice Johnson",
+  "email": "alice@example.com",
+  "password": "strongpassword123",
+  "role": "ADMIN"
+}
+
+###
+
+### Login user
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "phone": "9876543219",
+  "password": "strongpassword123"
+}
+
+###
+
+### Get user profile (Requires token from login response)
+GET http://localhost:3000/api/user/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Ijk4NzY1NDMyMTkiLCJpYXQiOjE3NDc5MzA4MDgsImV4cCI6MTc0NzkzNDQwOH0.6WwvaMlQbVlXGMCBl9bOMD6ObmJg-fH-cwPWFmdnGug
